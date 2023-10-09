@@ -1,0 +1,74 @@
+.reason {
+    position:relative;
+    width: 20%;
+    height:40%;
+}
+.reason img{
+    width:55%;
+}
+.rs1{
+    margin:auto;
+    margin-top:0%;
+    margin-left:38.5%;
+}
+.rs1 p{
+    margin-top:-5%;
+    margin-left:13.5%;
+    font-size:1.5rem;
+}
+.rs2{
+    
+    margin:auto;
+    margin-top:-13%;
+    margin-left:50%;
+}
+.rs2 p{
+    margin-top:-5%;
+    margin-left:13.5%;
+    font-size:1.5rem;
+}
+.rs3{
+    margin:auto;
+    margin-top:0%;
+    margin-left:37.5%;
+}
+.rs3 p{
+    margin-top:-5%;
+    margin-left:13.5%;
+    font-size:1.5rem;
+}
+.rs4{
+    
+    margin:auto;
+    margin-top:-12.75%;
+    margin-left:50%;
+}
+.rs4 p{
+    margin-top:-5%;
+    margin-left:13.5%;
+    font-size:1.5rem;
+}
+.improv{
+    text-decoration:none !important;
+    margin-left:40% !important;
+    transition: 0.5s ease-in-out  !important;
+    background-color:rgb(239, 216, 205);
+    border-radius:5px;
+
+}
+.improv a{
+    color:rgb(61, 59, 56);
+    margin:0;
+    font-size:2rem;
+    font-weight: bold;
+}
+.improv a:hover{
+    color:white;
+    text-decoration:none;
+}
+.improv:hover{
+    background:rgb(229, 103, 12);
+    text-decoration:none;
+    transition: 0.5s ease-in-out  !important;
+    color:white
+}

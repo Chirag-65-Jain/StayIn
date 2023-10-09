@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay In</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/stuinfo.css">
+    <script src="JS/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-custom navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Government</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="school.html">School</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Parent</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Student info</a></li>
+                            <li><a class="dropdown-item" href="#">Financial Aid</a></li>
+                            <li><a class="dropdown-item" href="#">Early Warning System</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Student</a>
+                    </li>
+                    <ul class="navbar-nav nav-custom"  >
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Language</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                <li><a class="dropdown-item" href="#">Gujrati</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item pos">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item pos">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="login-card">
+        <div class="card-header">
+          <h1>Parent Login</h1>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <input type="text" id="username" name="username" placeholder="Student ID/Email ID" required="">
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" name="password" placeholder="Password" required="">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="login-button">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+</body>
+</html>
